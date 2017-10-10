@@ -1,0 +1,368 @@
+Started GET "/" for 127.0.0.1 at 2017-10-10 10:46:43 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/kallom/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/kallom/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (7.4ms)
+Completed 200 OK in 835ms (Views: 23.2ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 10:47:55 -0700
+Processing by SumsController#find_sum as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000000000397cbd0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5679-hluzdr.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 349ms (Views: 6.6ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 10:48:49 -0700
+Processing by SumsController#find_sum as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa604009158 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5679-1oyhfvg.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 9ms (Views: 3.4ms)
+
+
+Started POST "/filters" for 127.0.0.1 at 2017-10-10 10:49:06 -0700
+Processing by FiltersController#find_filtered_sum as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa60403d818 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5679-1jwrof.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.9ms)
+
+
+Started POST "/filters" for 127.0.0.1 at 2017-10-10 10:49:34 -0700
+Processing by FiltersController#find_filtered_sum as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00000000039d1220 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5679-vafct.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 6ms (Views: 1.3ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 10:50:05 -0700
+Processing by IntervalsController#find_max_sum_between_intervals as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00000000039afe90 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5679-8hvywz.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.1ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 10:50:13 -0700
+Processing by IntervalsController#find_max_sum_between_intervals as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa5fc7c3bf8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5679-7djn85.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.6ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 10:50:25 -0700
+Processing by IntervalsController#find_max_sum_between_intervals as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa60406fcc8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5679-14oa5et.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 25ms (Views: 4.9ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 10:50:28 -0700
+Processing by IntervalsController#find_max_sum_between_intervals as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000000000389f848 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5679-1tj323t.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 24ms (Views: 6.0ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 11:04:50 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 11:24:07 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 11:36:37 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 11:36:56 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 11:37:42 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 11:37:56 -0700
+Processing by SumsController#find_sum as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00000000042e0b90 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-6269-1rb6u3y.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 217ms (Views: 2.2ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 11:38:03 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 11:52:59 -0700
+Processing by SumsController#find_sum as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f3220009b10 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-6269-55l2fg.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 15ms (Views: 9.5ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 11:53:06 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 12:03:29 -0700
+Processing by SumsController#find_sum as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000003529380 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-6619-zftk1v.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 269ms (Views: 6.0ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 12:23:07 -0700
+Processing by SumsController#find_sum as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000003ddf6c8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7166-18orrru.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 348ms (Views: 11.2ms)
+
+
+Started POST "/lin_regression" for 127.0.0.1 at 2017-10-10 12:23:15 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/lin_regression"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/lin_regression" for 127.0.0.1 at 2017-10-10 12:23:21 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/lin_regression"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 12:23:39 -0700
+Processing by SumsController#find_sum as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fd97c34d908 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7166-1lnbqac.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 3ms (Views: 1.2ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:23:54 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:24:01 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:25:01 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:27:55 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:28:37 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:28:53 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:28:56 -0700
+  
+LoadError (cannot load such file -- linefit):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:30:16 -0700
+Processing by LinRegressionsController#find_slope_and_intercept as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000004651cc0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7316-12av3c7.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 305ms (Views: 5.4ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:31:21 -0700
+Processing by LinRegressionsController#find_slope_and_intercept as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000002cc7570 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7372-1szw00e.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 286ms (Views: 5.5ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:31:33 -0700
+  
+SyntaxError (/home/kallom/Desktop/TP/csv_docs/app/controllers/lin_regressions_controller.rb:22: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/lin_regressions_controller.rb:22: syntax error, unexpected '\n', expecting =>
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:31:43 -0700
+Processing by LinRegressionsController#find_slope_and_intercept as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000005a10d60 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7372-1s41urq.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 8ms
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/lin_regressions_controller.rb:22:in `%'
+app/controllers/lin_regressions_controller.rb:22:in `find_slope_and_intercept'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:31:47 -0700
+Processing by LinRegressionsController#find_slope_and_intercept as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f20881be928 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7372-1prrguu.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/lin_regressions_controller.rb:22:in `%'
+app/controllers/lin_regressions_controller.rb:22:in `find_slope_and_intercept'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:31:55 -0700
+Processing by LinRegressionsController#find_slope_and_intercept as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000004cf9a50 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7372-g3ml9t.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 6ms
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/lin_regressions_controller.rb:22:in `find_slope_and_intercept'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:32:01 -0700
+Processing by LinRegressionsController#find_slope_and_intercept as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000005b28680 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7372-1loszh9.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 5ms (Views: 1.9ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:32:04 -0700
+Processing by LinRegressionsController#find_slope_and_intercept as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000005b0db28 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7372-14fjmf8.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 12:35:25 -0700
+Processing by LinRegressionsController#find_slope_and_intercept as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000005ab29a8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7372-1449vl8.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 12:35:31 -0700
+Processing by SumsController#find_sum as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000005a6dda8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7372-hcwq4t.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 4ms (Views: 2.4ms)
+
+
+Started POST "/filters" for 127.0.0.1 at 2017-10-10 12:35:37 -0700
+Processing by FiltersController#find_filtered_sum as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000005a10e78 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7372-1ifcz9l.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.4ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 12:35:44 -0700
+Processing by IntervalsController#find_max_sum_between_intervals as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00000000059be4e8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-7372-3os87y.csv>, @original_filename="sums.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sums.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 14ms (Views: 11.5ms)
+
+

@@ -1,14 +1,19 @@
-
 Rails.application.routes.draw do
+  get 'lin_regressions/find_slope_and_intercept'
 
-  get 'welcome/index'
-  root 'welcome#index'
+  post "/lin_regressions" => "lin_regressions#find_slope_and_intercept"
 
-  match '/sums', :to => 'application#sums', :via => [:post]
+  get 'intervals/find_max_sum_between_intervals'
 
-  match '/filters', :to => 'application#filters', :via => [:post]
+  post "/intervals" => "intervals#find_max_sum_between_intervals"
 
-  match '/calc', :to => 'application#calc', :via => [:post]
+  get 'filters/find_filtered_sum'
+
+  post "/filters" => "filters#find_filtered_sum"
+
+  get 'sums/find_sum'
+
+  post "/sums" => "sums#find_sum"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
